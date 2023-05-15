@@ -34,7 +34,7 @@ const cartSlice = createSlice({
         existingItem.quantity--;
         // existingItem.tatalPrice = existingItem.totalPrice = existingItem.price;
       }
-    }
+    },
   }
 });
 export const cartActions = cartSlice.actions;
